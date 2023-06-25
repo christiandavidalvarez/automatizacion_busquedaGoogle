@@ -27,3 +27,7 @@ build/Release
 node_modules
 cypress/videos
 cypress/screenshots
+
+# demo directory
+cypress/integration/2-advanced-examples
+cypress/integration/1-getting-started
