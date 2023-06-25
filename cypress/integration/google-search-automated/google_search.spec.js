@@ -3,7 +3,7 @@ describe("testing in google",()=>{
     beforeEach(()=>{
         cy.visit('https://www.google.com/');
     })
-    it("make a search in google",()=>{
+    it("buscar cualquier termino utilizando la barra de busqueda única en pantalla",()=>{
         /*Escenario automatizado
         Como usuario quiero buscar cualquier término utilizando la barra de búsqueda única en pantalla  
         */
