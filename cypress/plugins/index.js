@@ -20,3 +20,11 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
+
+const testautomationreporter = require('@testomatio/reporter/lib/adapter/cypress-plugin');
+
+module.exports = (on, config) => {
+  testautomationreporter(on, config);
+  return config;
+}
+      

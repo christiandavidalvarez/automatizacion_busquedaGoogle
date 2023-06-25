@@ -1,5 +1,10 @@
 {
   "devDependencies": {
+    "@babel/eslint-parser": "^7.22.5",
+    "@testomatio/reporter": "^1.0.0",
     "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
   }
 }
