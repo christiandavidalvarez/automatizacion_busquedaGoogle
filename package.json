@@ -6,5 +6,8 @@
   },
   "dependencies": {
     "core-js": "^3.31.0"
+  },
+  "scripts": {
+    "cy:run":"cypress run"
   }
 }
